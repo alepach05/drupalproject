@@ -11,6 +11,10 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     ],
@@ -23,6 +27,7 @@
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.1",
         "drush/drush": "^11.5",
+        "npm-asset/chosen": "^0.0.2",
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
