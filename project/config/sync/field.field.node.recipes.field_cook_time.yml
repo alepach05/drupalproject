@@ -1,0 +1,23 @@
+uuid: b9c15fe0-c651-48b9-8a10-7ae8270e01a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cook_time
+    - node.type.recipes
+id: node.recipes.field_cook_time
+field_name: field_cook_time
+entity_type: node
+bundle: recipes
+label: 'Cook time'
+description: 'Enter the time in minutes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: minutes
+field_type: integer
