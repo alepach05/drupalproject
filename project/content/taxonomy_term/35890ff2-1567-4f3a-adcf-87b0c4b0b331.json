@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-alepach05-drupalproject-1cpjr7rfo6t.ws-us97.gitpod.io\/taxonomy\/term\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-alepach05-drupalproject-1cpjr7rfo6t.ws-us97.gitpod.io\/rest\/type\/taxonomy_term\/cuisine"
+        },
+        "https:\/\/8080-alepach05-drupalproject-1cpjr7rfo6t.ws-us97.gitpod.io\/rest\/relation\/taxonomy_term\/cuisine\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "35890ff2-1567-4f3a-adcf-87b0c4b0b331"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cuisine"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-04-18T00:37:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "cro",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "Description of cro (depth 1)",
+            "format": null,
+            "processed": "<p>Description of cro (depth 1)<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 8
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alepach05-drupalproject-1cpjr7rfo6t.ws-us97.gitpod.io\/rest\/relation\/taxonomy_term\/cuisine\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2023-04-18T00:37:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}
