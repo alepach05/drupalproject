@@ -1,0 +1,8 @@
+uuid: 9074e4cd-50d5-46c9-aff5-50be53b5778b
+langcode: en
+status: true
+dependencies: {  }
+name: Format
+vid: format
+description: 'Examples: main dish, dessert, bakery...'
+weight: 0

@@ -1,0 +1,29 @@
+uuid: 9b312576-003d-47fa-9bdb-85542f51f552
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_courses
+    - field.storage.block_content.field_featured_courses
+    - node.type.courses
+id: block_content.featured_courses.field_featured_courses
+field_name: field_featured_courses
+entity_type: block_content
+bundle: featured_courses
+label: 'Featured courses'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      courses: courses
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,31 @@
+uuid: f15a3997-1ea4-4dad-a357-38c0398d6570
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_courses
+    - field.field.block_content.featured_courses.field_featured_courses
+id: block_content.featured_courses.default
+targetEntityType: block_content
+bundle: featured_courses
+mode: default
+content:
+  field_featured_courses:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

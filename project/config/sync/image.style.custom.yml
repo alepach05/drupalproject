@@ -1,0 +1,20 @@
+uuid: a27d5fa9-dbd2-4c08-bcc6-77003cd145d0
+langcode: en
+status: true
+dependencies: {  }
+name: custom
+label: 'Small (desaturate)'
+effects:
+  48ca85eb-9d09-421f-897c-4beeba16e176:
+    uuid: 48ca85eb-9d09-421f-897c-4beeba16e176
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      anchor: center-center
+  bf4b8196-537b-4c37-90a2-9792b761acc2:
+    uuid: bf4b8196-537b-4c37-90a2-9792b761acc2
+    id: image_desaturate
+    weight: 2
+    data: {  }

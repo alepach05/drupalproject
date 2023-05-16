@@ -1,0 +1,33 @@
+uuid: edc79290-2fce-4554-af6c-891947726283
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:link_courses:09e71f05-4958-4ce8-b09e-4772cfd405f9'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: linkcourses
+theme: olivero
+region: sidebar
+weight: -6
+provider: null
+plugin: 'block_content:09e71f05-4958-4ce8-b09e-4772cfd405f9'
+settings:
+  id: 'block_content:09e71f05-4958-4ce8-b09e-4772cfd405f9'
+  label: Courses
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      courses: courses

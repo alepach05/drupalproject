@@ -1,12 +1,14 @@
-uuid: c0a46869-8aeb-4775-b67a-72a8ba72c5fd
+uuid: bf48ba75-af59-4819-811b-7745166a2ef6
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - workflows.workflow.editorial
   module:
     - comment
     - contact
+    - content_moderation
     - filter
     - media
     - search
@@ -26,5 +28,6 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'use editorial transition create_new_draft'
   - 'use text format basic_html'
   - 'view media'

@@ -1,16 +1,21 @@
-uuid: 8c71b57d-ca97-4b2b-8c86-0020d306de0f
+uuid: 3c6e916d-84ef-4a14-babc-0c7f0d38a4a2
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.recipes.body
+    - field.field.node.recipes.field_chef
+    - field.field.node.recipes.field_comments
     - field.field.node.recipes.field_cook_time
     - field.field.node.recipes.field_cuisine
     - field.field.node.recipes.field_difficulty
+    - field.field.node.recipes.field_format
     - field.field.node.recipes.field_ingredients
+    - field.field.node.recipes.field_instructions
     - field.field.node.recipes.field_media
     - node.type.recipes
   module:
+    - comment
     - media_library
     - path
     - text
@@ -32,6 +37,22 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_chef:
+    type: entity_reference_autocomplete
+    weight: 127
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_comments:
+    type: comment_default
+    weight: 130
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -58,6 +79,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_format:
+    type: entity_reference_autocomplete
+    weight: 128
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_ingredients:
     type: string_textfield
     weight: 122
@@ -65,6 +96,16 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_instructions:
+    type: text_textarea_with_summary
+    weight: 129
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   field_media:
     type: media_library_widget

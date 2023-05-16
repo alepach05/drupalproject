@@ -1,0 +1,8 @@
+uuid: 8d2c1040-3889-42e4-af58-a99b8728316e
+langcode: en
+status: true
+dependencies: {  }
+id: featured_courses
+label: 'Featured courses'
+revision: 0
+description: ''

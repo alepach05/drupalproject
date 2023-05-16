@@ -1,0 +1,23 @@
+uuid: 85829f5e-41dc-4b46-8dea-4e29ddcbc80f
+langcode: en
+status: true
+dependencies: {  }
+name: custom_big
+label: 'Extra large (vertical)'
+effects:
+  2eb459ad-ad3f-4da9-94bd-81170b62874e:
+    uuid: 2eb459ad-ad3f-4da9-94bd-81170b62874e
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      upscale: true
+  c75facdb-7266-4c53-893d-503716b84285:
+    uuid: c75facdb-7266-4c53-893d-503716b84285
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 90
+      bgcolor: ''
+      random: false

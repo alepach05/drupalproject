@@ -1,0 +1,12 @@
+uuid: 4ab248ea-9139-4b53-bf27-34f40526a864
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - admin@example.com
+reply: 'Thank you for contacting us, we will answer you as soon as possible.'
+weight: 0
+message: 'Thank you for contacting us, we will answer you as soon as possible.'
+redirect: ''

@@ -1,0 +1,8 @@
+uuid: 5e93b5f2-0364-431e-857a-7deede267ff0
+langcode: en
+status: true
+dependencies: {  }
+name: Courses
+vid: courses
+description: 'Examples: design, programming, databases...'
+weight: 0

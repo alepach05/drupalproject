@@ -1,0 +1,48 @@
+uuid: 086a3180-84cf-4e61-bfcd-1b5948990683
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.courses.body
+    - field.field.node.courses.field_category
+    - field.field.node.courses.field_program
+    - node.type.courses
+  module:
+    - file
+    - text
+    - user
+id: node.courses.default
+targetEntityType: node
+bundle: courses
+mode: default
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_program:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,17 @@
+uuid: bab8d5e5-c493-4acf-b4a6-48b70eaf835c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recipes
+  module:
+    - node
+id: chef
+label: Chef
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'create recipes content'
+  - 'delete own recipes content'
+  - 'edit own recipes content'

@@ -1,0 +1,30 @@
+uuid: e453ebe5-ddf9-4612-b109-046bd49cdfb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_interests
+    - taxonomy.vocabulary.tags
+  module:
+    - user
+id: user.user.field_interests
+field_name: field_interests
+entity_type: user
+bundle: user
+label: Interests
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

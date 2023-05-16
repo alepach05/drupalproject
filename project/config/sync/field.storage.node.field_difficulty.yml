@@ -1,4 +1,4 @@
-uuid: 1bdc8aba-f59a-41b1-b710-82146da7796e
+uuid: 49355ecf-37db-4924-9eee-3d7791559767
 langcode: en
 status: true
 dependencies:
@@ -18,8 +18,8 @@ settings:
       value: medium
       label: Medium
     -
-      value: difficult
-      label: Difficult
+      value: hard
+      label: Hard
   allowed_values_function: ''
 module: options
 locked: false

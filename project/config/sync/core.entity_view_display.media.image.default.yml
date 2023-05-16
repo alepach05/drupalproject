@@ -1,13 +1,13 @@
-uuid: 0735d52d-283b-4db2-bfa3-8bcf2f47b802
+uuid: f8d9bea9-225c-47b0-bd6e-d45ef8658d9f
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - image.style.large
     - media.type.image
+    - responsive_image.styles.banner_images
   module:
-    - image
+    - responsive_image
 _core:
   default_config_hash: 73xaTNkI5J6sfFcBmNYeuk070X3mQS_iwwWaPYyfG2M
 id: media.image.default
@@ -16,13 +16,11 @@ bundle: image
 mode: default
 content:
   field_media_image:
-    type: image
+    type: responsive_image
     label: visually_hidden
     settings:
-      image_style: large
+      responsive_image_style: banner_images
       image_link: ''
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: 1
     region: content

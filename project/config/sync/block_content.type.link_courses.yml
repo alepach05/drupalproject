@@ -1,0 +1,8 @@
+uuid: 8dddb2e9-098a-45de-856a-5b11084d9b09
+langcode: en
+status: true
+dependencies: {  }
+id: link_courses
+label: 'Link courses'
+revision: 0
+description: ''

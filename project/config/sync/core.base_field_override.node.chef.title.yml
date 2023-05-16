@@ -1,0 +1,18 @@
+uuid: b9221e6c-24c3-4389-8314-69ae2f54415d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chef
+id: node.chef.title
+field_name: title
+entity_type: node
+bundle: chef
+label: 'Chef name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

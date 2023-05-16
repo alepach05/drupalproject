@@ -1,4 +1,4 @@
-uuid: b9c15fe0-c651-48b9-8a10-7ae8270e01a8
+uuid: 15b10426-4c49-494f-b6ee-486245ab25bc
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  min: null
+  min: 1
   max: null
   prefix: ''
   suffix: minutes

@@ -1,0 +1,33 @@
+uuid: 2518f9d1-f322-432f-bd8a-a33a901f93ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: add
+theme: olivero
+region: sidebar
+weight: -9
+provider: null
+plugin: 'system_menu_block:add'
+settings:
+  id: 'system_menu_block:add'
+  label: 'Add new recipe'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      chef: chef

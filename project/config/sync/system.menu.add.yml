@@ -1,0 +1,8 @@
+uuid: 48e5d5cb-c26c-4a37-a5e2-070e16de62f0
+langcode: en
+status: true
+dependencies: {  }
+id: add
+label: Add
+description: 'Chefs can add recipes'
+locked: false
